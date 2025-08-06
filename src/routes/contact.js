@@ -7,6 +7,3 @@ const router = Router();
 router.post("/", contactFormValidation, controllers.contact.submitContactForm);
 
 module.exports = router;
-
-// finish off contact form validation
-// submitContactForm - controller do tomorrow
